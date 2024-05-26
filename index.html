@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>SVG</title>
+</head>
+<body>
+   <div class="wrapper">
+      <h1>Фігури</h1>
+      <div class="figure">
+         <!-- Квадрат -->
+         <svg class="width-block"> 
+            <text x="120" y="250">
+               <tspan font-size="20" font-weight="bold" fill="green">Квадрат</tspan>
+            </text>
+            <rect width="200" height="200" x="50" y="20" style="fill:blue; stroke-width:5; stroke:black" />
+          </svg>
+         <!-- Прямокутник -->
+         <svg class="width-block">
+            <text x="95" y="250">
+               <tspan font-size="20" font-weight="bold" fill="green">Прямокутник</tspan>
+            </text>
+            <rect width="280" height="200" x="10" y="20" style="fill:lightgreen; stroke-width:5; stroke:blue" />
+         </svg>
+            <!-- Коло -->
+         <svg class="width-block">
+            <text x="130" y="250">
+               <tspan font-size="20" font-weight="bold" fill="green">Коло</tspan>
+            </text>
+            <circle cx="150" cy="120" r="90" stroke="orange" stroke-width="5" fill="gray" />
+         </svg>
+             <!-- Еліпс -->
+         <svg class="width-block">
+            <text x="130" y="250">
+               <tspan font-size="20" font-weight="bold" fill="green">Еліпс</tspan>
+            </text>
+            <ellipse cx="150" cy="120" rx="140" ry="80" stroke="green" stroke-width="5" fill="yellow"/>
+         </svg>
+      </div>
+      <h2>Анімація фігури</h2>
+         <svg class="width-block animate-block">
+            <circle cx="150" cy="120" r="90" stroke="orange" stroke-width="5" fill="gray" />
+         </svg>
+   </div>
+</body>
+</html>
